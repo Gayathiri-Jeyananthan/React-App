@@ -9,10 +9,15 @@ export const Header = () => {
         <h1 className="bannerText">React JS Tutorial with Aplications</h1>
         <p className="slogan">Learn more be smart and achieve everything</p>
         <p>Once we familiar with ReactJS we can make lot's pf applications</p>
+        
+        {/* {JavaScript expression} */}
         <p className={customCSS}>20+30={20+30}</p>
         <p className={customCSS2} style={{fontSize:'50px'}}>This message shows error</p>
+
         {/* {Conditional Rendering} */}
         {greeting}
+
+        {/* {JSX with Lists} */}
       </div>
     </>
   );
