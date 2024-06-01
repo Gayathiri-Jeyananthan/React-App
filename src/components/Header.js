@@ -3,6 +3,7 @@ export const Header = () => {
   let customCSS2="error";
   const isLoggedin= false;
   const greeting = isLoggedin ? <p>Welcome to Uki</p> : <p>Please Logged in first</p>;
+  const itmes=['item 1', 'item 2', 'item 3', 'item 4', 'item 5'];
   return (
     <>
       <div>
@@ -18,6 +19,7 @@ export const Header = () => {
         {greeting}
 
         {/* {JSX with Lists} */}
+        <ul>{itmes.map((item,index)=>(<li key={index}>{item}</li>))}</ul>
       </div>
     </>
   );
