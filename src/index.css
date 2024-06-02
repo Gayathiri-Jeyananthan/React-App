@@ -13,3 +13,20 @@
 .error{
   color:red;
 }
+
+.student table{
+border:1px solid #0b0223;
+border-collapse:collapse;
+width:300px;
+}
+
+.student table td,
+.student table th{
+  text-align: center;
+  border:1px solid #0b0223;
+  padding:5px
+}
+
+.student table th{
+  width:200px;
+}
