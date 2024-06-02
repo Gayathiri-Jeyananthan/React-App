@@ -21,4 +21,8 @@ export const Student = (props) => {
   );
 };
 
+Student.defaultProps = {
+    name:"No Name",
+    age:"Null"
+}
 export default Student;
