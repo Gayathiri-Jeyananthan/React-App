@@ -13,7 +13,7 @@ export const Header = () => {
         
         {/* {JavaScript expression} */}
         <p className={customCSS}>20+30={20+30}</p>
-        <p className={customCSS2} style={{fontSize:'50px'}}>This message shows error</p>
+        <p className={customCSS2} style={{fontSize:'50px', fontStyle:'italic'}}>This message shows error</p>
 
         {/* {Conditional Rendering} */}
         {greeting}
